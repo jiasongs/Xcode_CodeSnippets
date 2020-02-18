@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIVisualEffectTheme</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    [UIVisualEffect qmui_effectWithThemeProvider:^UIVisualEffect *(QMUIThemeManager *manager, NSString *identifier, NSObject&lt;RMThemeProtocol&gt; *theme) {
+      if ([identifier isEqualToString:RMThemeIdentifierDark]) {
+        return &lt;# #&gt;);
+      }
+      return &lt;# #&gt;;
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E1AED82D-6B65-4EDB-A9EE-2B37976E2760</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIVisualEffect</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIVisualEffect的主题设置</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
