@@ -9,9 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>CFTimeInterval startTime = CACurrentMediaTime();
+	<string>CFTimeInterval startTime = CFAbsoluteTimeGetCurrent();
 &lt;#code here#&gt;
-CFTimeInterval endTime = CACurrentMediaTime();
+CFTimeInterval endTime = CFAbsoluteTimeGetCurrent();
 CFTimeInterval consumingTime = endTime - startTime;
 NSLog(@"耗时：%@", @(consumingTime * 1000));</string>
 	<key>IDECodeSnippetIdentifier</key>

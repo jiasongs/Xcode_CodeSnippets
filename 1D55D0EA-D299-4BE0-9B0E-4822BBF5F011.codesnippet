@@ -10,10 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[UIColor qmui_colorWithThemeProvider:^UIColor *(QMUIThemeManager *manager, NSString *identifier, NSObject&lt;RMThemeProtocol&gt; *theme) {
-      if ([identifier isEqualToString:RMThemeIdentifierDark]) {
-          return &lt;# #&gt;);
-      }
-    return &lt;# #&gt;;
+      BOOL isThemeDark = [identifier isEqualToString:RMThemeIdentifierDark];
+      return RMColorMakeWithHex(!isThemeDark ? &lt;# #&gt; : &lt;# #&gt;);
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1D55D0EA-D299-4BE0-9B0E-4822BBF5F011</string>

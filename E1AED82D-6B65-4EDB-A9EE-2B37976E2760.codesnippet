@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>    [UIVisualEffect qmui_effectWithThemeProvider:^UIVisualEffect *(QMUIThemeManager *manager, NSString *identifier, NSObject&lt;RMThemeProtocol&gt; *theme) {
       if ([identifier isEqualToString:RMThemeIdentifierDark]) {
-        return &lt;# #&gt;);
+        return &lt;# #&gt;;
       }
       return &lt;# #&gt;;
     }];</string>
