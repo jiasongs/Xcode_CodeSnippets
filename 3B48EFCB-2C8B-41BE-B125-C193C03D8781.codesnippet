@@ -9,9 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIImage qmui_imageWithThemeProvider:^UIImage *(QMUIThemeManager *manager, NSString *identifier, NSObject&lt;RMThemeProtocol&gt; *theme) {
-      BOOL isThemeDark = [identifier isEqualToString:RMThemeIdentifierDark];
-      return !isThemeDark ? &lt;# #&gt; : &lt;# #&gt;;
+	<string>[UIImage qmui_imageWithThemeProvider:^UIImage *(QMUIThemeManager *manager, RMUIThemeIdentifierEntity *identifierEntity, NSObject&lt;RMUIThemeTemplateProtocol&gt; *theme) {
+      return !theme.isDarkMode ? &lt;# #&gt; : &lt;# #&gt;;
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3B48EFCB-2C8B-41BE-B125-C193C03D8781</string>

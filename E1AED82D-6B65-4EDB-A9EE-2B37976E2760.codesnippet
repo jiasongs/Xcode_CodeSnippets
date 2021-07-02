@@ -9,11 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [UIVisualEffect qmui_effectWithThemeProvider:^UIVisualEffect *(QMUIThemeManager *manager, NSString *identifier, NSObject&lt;RMThemeProtocol&gt; *theme) {
-      if ([identifier isEqualToString:RMThemeIdentifierDark]) {
-        return &lt;# #&gt;;
-      }
-      return &lt;# #&gt;;
+	<string>    [UIVisualEffect qmui_effectWithThemeProvider:^UIVisualEffect *(QMUIThemeManager *manager, RMUIThemeIdentifierEntity *identifierEntity, NSObject&lt;RMUIThemeTemplateProtocol&gt; *theme) {
+        return !theme.isDarkMode ? &lt;##&gt;&lt;# #&gt; : &lt;# #&gt;;
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E1AED82D-6B65-4EDB-A9EE-2B37976E2760</string>

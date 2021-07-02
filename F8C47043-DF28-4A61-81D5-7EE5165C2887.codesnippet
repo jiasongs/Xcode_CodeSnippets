@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>__weakSelf</string>
+	<string>mac</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak __typeof(self) weakSelf = self;</string>
+	<string>#if !TARGET_OS_MACCATALYST
+&lt;#code#&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1AD3496A-7B93-4B60-9C5D-E54FC734E544</string>
+	<string>F8C47043-DF28-4A61-81D5-7EE5165C2887</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weakSelf</string>
+	<string>Mac Catalyst</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
