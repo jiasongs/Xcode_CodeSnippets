@@ -3,26 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy</string>
+	<string>jsnet</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#Class#&gt; *)&lt;#name#&gt; {
-    if (!_&lt;#name#&gt;) {
-        _&lt;#name#&gt; = [[&lt;#Class#&gt; alloc] init];
-    }
-    return _&lt;#name#&gt;;
-}</string>
+	<string>&lt;#RequestClass#&gt; *api = [[&lt;#RequestClass#&gt; alloc] init];
+[[JSNetworkProvider requestForPromiseWithConfig:api] onQueue:&lt;#Queue#&gt; then:^id _Nullable(id&lt;JSNetworkInterfaceProtocol&gt;  _Nullable value) {
+    &lt;#ResponseClass#&gt; *response = (&lt;#ResponseClass#&gt; *)value.response;
+        if (response.successful) {
+            
+        } else {
+           
+        }
+        return response;
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>25840B2F-5FC1-4142-815F-EB51FF037CB5</string>
+	<string>7C4F57A1-E1C2-4F0B-91C3-2BC3B37C1CF8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>懒加载</string>
+	<string>网络请求</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
