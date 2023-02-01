@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>macca</string>
+	<string>@kp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if !TARGET_OS_MACCATALYST
-&lt;#code#&gt;
-#endif</string>
+	<string>@keypath(&lt;#code#&gt;, &lt;#code#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F8C47043-DF28-4A61-81D5-7EE5165C2887</string>
+	<string>E0F197FD-F4D7-47C2-97D8-347DA425B1BD</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mac Catalyst</string>
+	<string>key path</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
