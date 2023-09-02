@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>letself</string>
+	<string>Rect</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let self = self else { return }</string>
+	<string>CGRect(
+    x: &lt;#CGFloat#&gt;,
+    y: &lt;#CGFloat#&gt;,
+    width: &lt;#CGFloat#&gt;,
+    height: &lt;#CGFloat#&gt;
+)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5579CC77-711E-4AA6-84D2-70AF13BA7A83</string>
+	<string>E7C081A0-F189-451C-B41A-8CA4B2E942F1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>guard weak self</string>
+	<string>CGRect</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

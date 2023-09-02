@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>letself</string>
+	<string>timec</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let self = self else { return }</string>
+	<string>let startTime = CFAbsoluteTimeGetCurrent()
+        &lt;#code here#&gt;
+        let endTime = CFAbsoluteTimeGetCurrent()
+        let consumingTime = endTime - startTime
+        print("耗时：\(consumingTime * 1000)")</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5579CC77-711E-4AA6-84D2-70AF13BA7A83</string>
+	<string>B4184A81-E780-4504-B661-7473A30207DA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>guard weak self</string>
+	<string>耗时</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
